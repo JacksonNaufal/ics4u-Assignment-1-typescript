@@ -1,6 +1,7 @@
 /**
- * The program uses albert einstines e=mc^2
- *   and deal with numbers.
+ * The program is the classic game of
+ * rock, paper, scissors!
+ *
  * By:      Jackson Naufal
  * Version: 1.0
  * Since:   2020-01-01
@@ -9,12 +10,15 @@
 import promptSync from 'prompt-sync'
 
 const prompt = promptSync()
-// let ageNumber: number
+// let userInput = rock, paper, or scissors
 
 const userInput = prompt('Enter your choice, Rock, Paper or Scissors: ')
+// checks if input is valid
 if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
+  // bot gets random number from 1 - 3
   const randomNumber = Math.floor(Math.random() * 3) + 1
   let botPlayer = String(randomNumber)
+  // program converts number to rock, paper, scissors
   if (randomNumber === 1) {
     botPlayer = 'rock'
   } else if (randomNumber === 2) {
@@ -22,7 +26,8 @@ if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
   } else {
     botPlayer = 'scissors'
   }
-
+  // program goes through combinations, and checks if the userInput
+  // wins, loses, or ties the botPlayer
   if (botPlayer === userInput) {
     console.log(`It was a tie! ${botPlayer} equals ${userInput}!`)
   } else if (
@@ -39,6 +44,7 @@ if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
     console.log(`User wins! ${userInput} beats ${botPlayer}!`)
   }
 } else {
+  // catch if an input is invalid
   console.log('Invalid Input')
 }
 console.log('\nDone.')

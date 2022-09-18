@@ -36,15 +36,15 @@ if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
   // program goes through combinations, and checks if the userInput
   // wins, loses, or ties the botPlayer.
   if (botPlayer === userInput) {
-    console.log(`It was a tie! ${botPlayer} equals ${userInput}!`)
+    console.log('It was a tie! ${botPlayer} equals ${userInput}!')
   } else if (
     (botPlayer === 'paper' && userInput === 'rock') ||
     (botPlayer === 'scissors' && userInput === 'paper') ||
     (botPlayer === 'rock' && userInput === 'scissors')
   ) {
-    console.log(`botPlayer wins! ${botPlayer} beats ${userInput}!`)
+    console.log('botPlayer wins! ${botPlayer} beats ${userInput}!')
   } else {
-    console.log(`User wins! ${userInput} beats ${botPlayer}!`)
+    console.log('User wins! ${userInput} beats ${botPlayer}!')
   }
 } else {
   // catch if an input is invalid

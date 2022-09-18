@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="bVoswQC8T6PlKmy4Bn8u" name="Page-1">
-        <mxGraphModel dx="2617" dy="1248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1817" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -60,7 +60,7 @@
                 <mxCell id="32" value="" style="edgeStyle=none;html=1;" parent="1" source="25" target="31" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="Get &lt;br&gt;randomNumber" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                <mxCell id="25" value="Get &lt;br&gt;randomChoice" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="100" y="370" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="58" value="" style="edgeStyle=none;html=1;" parent="1" source="31" target="57" edge="1">
@@ -80,7 +80,7 @@
                 <mxCell id="101" value="" style="edgeStyle=none;rounded=0;html=1;fontSize=10;endArrow=classic;endFill=1;" parent="1" source="57" target="96" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="113" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="57" target="112">
+                <mxCell id="113" value="" style="edgeStyle=none;html=1;" parent="1" source="57" target="112" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="57" value="elseif&lt;br&gt;(botPlayer === 'paper' &amp;amp;&amp;amp; userInput === 'rock)..." style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -120,7 +120,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="90" value="console.log&lt;br&gt;(&quot;Invalid Number, Enter a number between 1 - 3!&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                <mxCell id="90" value="console.log&lt;br&gt;(&quot;Invalid Number, Enter a valid choice&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="290" y="472.75" width="160" height="74.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="99" value="" style="edgeStyle=none;rounded=0;html=1;fontSize=10;endArrow=classic;endFill=1;" parent="1" source="96" target="8" edge="1">
@@ -149,27 +149,27 @@
                 <mxCell id="105" value="console.log&lt;br&gt;(&quot;userInput Wins!&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="424" y="1025" width="150" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="109" value="&lt;span style=&quot;font-size: 12px&quot;&gt;No&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+                <mxCell id="109" value="&lt;span style=&quot;font-size: 12px&quot;&gt;No&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
                     <mxGeometry x="230" y="480" width="30" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="115" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="112" target="114">
+                <mxCell id="115" value="" style="edgeStyle=none;html=1;" parent="1" source="112" target="114" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="118" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="112" target="97">
+                <mxCell id="118" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="112" target="97" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="112" value="elseif&lt;br&gt;(userInput === 'rock' &amp;amp;&amp;amp; botPlayer === 'rock)..." style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="112" value="elseif&lt;br&gt;(userInput === 'rock' &amp;amp;&amp;amp; botPlayer === 'rock)..." style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="78.75" y="780" width="162.5" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="119" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="114">
+                <mxCell id="119" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="114" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-30" y="1050" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="114" value="elseif&lt;br&gt;(userInput === 'scissors' &amp;amp;&amp;amp; botPlayer === 'paper)..." style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="114" value="elseif&lt;br&gt;(userInput === 'scissors' &amp;amp;&amp;amp; botPlayer === 'paper)..." style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="78.75" y="970" width="162.5" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="117" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+                <mxCell id="117" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
                     <mxGeometry x="240" y="830" width="40" height="20" as="geometry"/>
                 </mxCell>
             </root>

@@ -13,13 +13,17 @@ const prompt = promptSync()
 // let userInput = rock, paper, or scissors.
 
 const userInput = prompt('Enter your choice, Rock, Paper or Scissors: ')
+
 // checks if input is valid
 if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
   // bot gets random number from 1 - 3.
   const MAX = 3
   const MIN = 1
+
+  // generates random number
   const randomNumber = Math.floor(Math.random() * MAX) + MIN
   let botPlayer = String(randomNumber)
+
   // program converts number to rock, paper, scissors.
   if (randomNumber === 1) {
     botPlayer = 'rock'
@@ -28,6 +32,7 @@ if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
   } else {
     botPlayer = 'scissors'
   }
+
   // program goes through combinations, and checks if the userInput
   // wins, loses, or ties the botPlayer.
   if (botPlayer === userInput) {

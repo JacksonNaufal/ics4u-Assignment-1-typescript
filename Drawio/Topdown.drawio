@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="uaYPCmaQldxIdWAY0GNB" name="Page-1">
-        <mxGraphModel dx="1074" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="625" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -22,7 +22,7 @@
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="320" y="90" as="sourcePoint"/>
                         <Array as="points">
-                            <mxPoint x="500" y="90"/>
+                            <mxPoint x="550" y="90"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -32,10 +32,24 @@
                 <mxCell id="7" value="Rock, paper, scissors" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="10" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" source="9" target="13" edge="1">
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="340" y="190"/>
+                            <mxPoint x="270" y="180"/>
+                        </Array>
+                        <mxPoint x="340" y="180" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="21">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="180" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="414" y="180"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -46,16 +60,19 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="110" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="490" y="110" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="Get userInput" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="70" y="200" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="E = (mass*&amp;nbsp;&lt;span style=&quot;color: rgb(33 , 33 , 33) ; font-family: &amp;#34;lato&amp;#34; , sans-serif ; font-size: 14.6667px ; text-align: left&quot;&gt;2.998x10⁸&lt;/span&gt;)²" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="280" y="210" width="120" height="60" as="geometry"/>
+                <mxCell id="13" value="generate randomChoice" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="200" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="console.log(&quot;amount&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="210" width="120" height="60" as="geometry"/>
+                <mxCell id="14" value="show who wins, loses, or ties the duel" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Check who wins, loses, or ties, the duel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="200" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
